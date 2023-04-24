@@ -78,25 +78,19 @@ Here are five different ways that you can use Tool Name:
 python url-scanner.py --url https://example.com --wordlist /path/to/custom/wordlist.txt
 ```
 
-2. Scan multiple websites with a default wordlist:
-
-```
-python url-scanner.py --url https://example.com https://example.net https://example.org
-```
-
-3. Scan a website and save the results to a file:
+2. Scan a website and save the results to a file:
 
 ```
 python url-scanner.py --url https://example.com --wordlist /path/to/wordlist.txt --output /path/to/output.txt
 ```
 
-4. Scan a website and filter the results by HTTP status code:
+3. Scan a website and filter the results by HTTP status code:
 
 ```
 python url-scanner.py --url https://example.com --wordlist /path/to/wordlist.txt --status_code 404
 ```
 
-5. Scan a website with custom HTTP headers:
+4. Scan a website with custom HTTP headers:
 
 ```
 python url-scanner.py --url https://example.com --wordlist /path/to/wordlist.txt --user_agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" --cookie "sessionid=123456789"
