@@ -101,6 +101,15 @@ python url-scanner.py --url https://example.com --wordlist /path/to/wordlist.txt
 ```
 python url-scanner.py --url https://example.com --wordlist /path/to/wordlist.txt --user_agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" --cookie "sessionid=123456789"
 ```
+## Contributing
+Contributions are welcome! To contribute to Url-Scanner, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Open a pull request in the main repository.
+
 
 ## Contact
 
